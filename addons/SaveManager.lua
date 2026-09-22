@@ -440,3 +440,4 @@ do
 end;
 
 EZ.SaveManager = SaveManager;
+return SaveManager
