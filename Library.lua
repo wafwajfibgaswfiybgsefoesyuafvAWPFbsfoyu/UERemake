@@ -5670,3 +5670,5 @@ function EZ:CreateWindow(...)
 
 	return Window;
 end;
+
+return EZ;
