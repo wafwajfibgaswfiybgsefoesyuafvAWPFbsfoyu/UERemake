@@ -439,5 +439,4 @@ do
 	end;
 end;
 
-EZ.SaveManager = SaveManager;
 return SaveManager
