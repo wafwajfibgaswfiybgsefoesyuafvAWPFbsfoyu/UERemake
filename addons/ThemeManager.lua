@@ -1,7 +1,8 @@
 local ThemeManager = {};
 
 do
-	ThemeManager.Library = EZ;
+	ThemeManager.Library = ThemeManager.Library or {};
+	local EZ = ThemeManager.Library;
 	ThemeManager.DefaultTheme = 'Default';
 
 	local NonColorDefaults = {
@@ -617,5 +618,4 @@ do
 	end;
 end;
 
-EZ.ThemeManager = ThemeManager;
 return ThemeManager;
