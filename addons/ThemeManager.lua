@@ -618,3 +618,4 @@ do
 end;
 
 EZ.ThemeManager = ThemeManager;
+return ThemeManager;
